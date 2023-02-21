@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.magrifle</groupId>
     <artifactId>jwt-ssors</artifactId>
-    <version>1.0.6-SNAPSHOT</version>
+    <version>1.0.5-SNAPSHOT</version>
     <name>jwt-ssors</name>
     <description>jwt token helper based on ssors - spring security oauth2 resource server</description>
 
@@ -34,11 +34,11 @@
 
     <distributionManagement>
         <repository>
-            <id>s01-sonatype-nexus-staging</id>
+            <id>sonatype-nexus-staging</id>
             <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
         <snapshotRepository>
-            <id>s01-sonatype-nexus-staging</id>
+            <id>sonatype-nexus-snapshots</id>
             <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
@@ -212,7 +212,7 @@
                         <version>1.6.13</version>
                         <extensions>true</extensions>
                         <configuration>
-                            <serverId>s01-sonatype-nexus-staging</serverId>
+                            <serverId>sonatype-nexus-staging</serverId>
                             <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
                             <autoReleaseAfterClose>true</autoReleaseAfterClose>
                         </configuration>

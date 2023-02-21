@@ -1,4 +1,4 @@
-package com.magrifle.jwt.ssors.exception;
+package com.github.magrifle.jwt.ssors.exception;
 
 public class InvalidJwtAuthenticationException extends RuntimeException
 {

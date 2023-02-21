@@ -1,6 +1,6 @@
-package com.magrifle.jwt.ssors.autoconfigure;
+package com.github.magrifle.jwt.ssors.autoconfigure;
 
-import com.magrifle.jwt.ssors.service.LoggedOutTokenService;
+import com.github.magrifle.jwt.ssors.service.LoggedOutTokenService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

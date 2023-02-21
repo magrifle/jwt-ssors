@@ -1,9 +1,9 @@
-package com.magrifle.jwt.ssors.provider;
+package com.github.magrifle.jwt.ssors.provider;
 
-import com.magrifle.jwt.ssors.autoconfigure.MagrifleResourceServerProperties;
-import com.magrifle.jwt.ssors.dto.AuthenticatedUser;
-import com.magrifle.jwt.ssors.exception.InvalidJwtAuthenticationException;
-import com.magrifle.jwt.ssors.service.LoggedOutTokenService;
+import com.github.magrifle.jwt.ssors.dto.AuthenticatedUser;
+import com.github.magrifle.jwt.ssors.autoconfigure.MagrifleResourceServerProperties;
+import com.github.magrifle.jwt.ssors.exception.InvalidJwtAuthenticationException;
+import com.github.magrifle.jwt.ssors.service.LoggedOutTokenService;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jws;

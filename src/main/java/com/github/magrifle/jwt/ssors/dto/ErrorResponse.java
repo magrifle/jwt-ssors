@@ -1,4 +1,4 @@
-package com.magrifle.jwt.ssors.dto;
+package com.github.magrifle.jwt.ssors.dto;
 
 import java.io.Serializable;
 

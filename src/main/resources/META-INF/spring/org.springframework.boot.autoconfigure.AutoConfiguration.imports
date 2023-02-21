@@ -1,1 +1,1 @@
-com.magrifle.jwt.ssors.autoconfigure.MagrifleSecurityConfiguration
+com.github.magrifle.jwt.ssors.autoconfigure.MagrifleSecurityConfiguration

@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.magrifle</groupId>
     <artifactId>jwt-ssors</artifactId>
-    <version>1.0.5-SNAPSHOT</version>
+    <version>1.0.5</version>
     <name>jwt-ssors</name>
     <description>jwt token helper based on ssors - spring security oauth2 resource server</description>
 
@@ -28,7 +28,7 @@
     <scm>
         <connection>scm:git:https://github.com/magrifle/jwt-ssors.git</connection>
         <developerConnection>scm:git:https://github.com/magrifle/jwt-ssors.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v1.0.5</tag>
         <url>https://github.com/magrifle/jwt-ssors.git</url>
     </scm>
 

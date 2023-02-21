@@ -7,7 +7,7 @@ The library that helps auto-configure a springboot application as a resource ser
 ```xml
 
         <dependency>
-            <groupId>com.github.magrifle</groupId>
+            <groupId>io.github.magrifle</groupId>
             <artifactId>jwt-ssors</artifactId>
         </dependency>
 ```
@@ -17,8 +17,8 @@ Then you can protect access to resources based on different authorities. You can
 security context such as user phone number.
 
 ```java
-import com.github.magrifle.jwt.ssors.dto.AuthenticatedUser;
-import com.github.magrifle.jwt.ssors.annotation.CurrentUser;
+import io.github.magrifle.jwt.ssors.dto.AuthenticatedUser;
+import io.github.magrifle.jwt.ssors.annotation.CurrentUser;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

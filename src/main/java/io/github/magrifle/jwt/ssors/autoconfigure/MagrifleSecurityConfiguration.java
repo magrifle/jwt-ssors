@@ -1,7 +1,7 @@
-package com.github.magrifle.jwt.ssors.autoconfigure;
+package io.github.magrifle.jwt.ssors.autoconfigure;
 
-import com.github.magrifle.jwt.ssors.provider.MagrifleJwtTokenProvider;
-import com.github.magrifle.jwt.ssors.service.LoggedOutTokenService;
+import io.github.magrifle.jwt.ssors.provider.MagrifleJwtTokenProvider;
+import io.github.magrifle.jwt.ssors.service.LoggedOutTokenService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

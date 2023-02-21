@@ -1,4 +1,4 @@
-package com.github.magrifle.jwt.ssors.service;
+package io.github.magrifle.jwt.ssors.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

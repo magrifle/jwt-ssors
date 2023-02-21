@@ -1,10 +1,10 @@
-package com.github.magrifle.jwt.ssors.filter;
+package io.github.magrifle.jwt.ssors.filter;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.magrifle.jwt.ssors.dto.ErrorResponse;
-import com.github.magrifle.jwt.ssors.exception.InvalidJwtAuthenticationException;
-import com.github.magrifle.jwt.ssors.provider.MagrifleJwtTokenProvider;
+import io.github.magrifle.jwt.ssors.dto.ErrorResponse;
+import io.github.magrifle.jwt.ssors.exception.InvalidJwtAuthenticationException;
+import io.github.magrifle.jwt.ssors.provider.MagrifleJwtTokenProvider;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletRequest;
 import jakarta.servlet.ServletResponse;

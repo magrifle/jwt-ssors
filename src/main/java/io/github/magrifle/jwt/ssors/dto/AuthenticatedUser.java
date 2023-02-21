@@ -1,4 +1,4 @@
-package com.github.magrifle.jwt.ssors.dto;
+package io.github.magrifle.jwt.ssors.dto;
 
 import java.util.Collection;
 

@@ -1,4 +1,4 @@
-package com.github.magrifle.jwt.ssors.annotation;
+package io.github.magrifle.jwt.ssors.annotation;
 
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 

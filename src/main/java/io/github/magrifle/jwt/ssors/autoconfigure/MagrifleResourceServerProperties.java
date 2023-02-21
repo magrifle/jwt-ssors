@@ -1,4 +1,4 @@
-package com.github.magrifle.jwt.ssors.autoconfigure;
+package io.github.magrifle.jwt.ssors.autoconfigure;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

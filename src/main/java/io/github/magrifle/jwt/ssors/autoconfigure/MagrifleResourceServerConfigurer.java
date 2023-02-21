@@ -1,7 +1,7 @@
-package com.github.magrifle.jwt.ssors.autoconfigure;
+package io.github.magrifle.jwt.ssors.autoconfigure;
 
-import com.github.magrifle.jwt.ssors.filter.MagrifleJwtTokenFilter;
-import com.github.magrifle.jwt.ssors.provider.MagrifleJwtTokenProvider;
+import io.github.magrifle.jwt.ssors.filter.MagrifleJwtTokenFilter;
+import io.github.magrifle.jwt.ssors.provider.MagrifleJwtTokenProvider;
 import lombok.AllArgsConstructor;
 import org.springframework.security.config.annotation.SecurityConfigurerAdapter;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
